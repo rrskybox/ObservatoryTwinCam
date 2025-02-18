@@ -1,3 +1,1 @@
-This is just an example on how to use RTSPClientSharp in winforms
-
-https://github.com/BogdanovKirill/RtspClientSharp 
+This camera monitor uses RtspClientSharp and FFmpeg to view two security cameras using RTSP protocol in a fashion most useful for a simple astronomical observatory.  That is, upon launch, the monitor automatically brings up the two cameras and turns on IR.  Upon close, IR is turned off.  Manual controls for lights and PTZ (no Z) are included.  The app has been tested only with Amcrest security cameras.
